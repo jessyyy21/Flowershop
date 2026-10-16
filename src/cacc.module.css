@@ -1,0 +1,93 @@
+.page {
+    min-height: 100vh;
+    background: #f5f1f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.loginBox {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 32px;
+    border: 1px solid #e0d5dc;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.loginBox h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.loginBox label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 7px;
+    color: #444;
+}
+
+.loginBox input,
+.loginBox textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.loginBox input:focus,
+.loginBox textarea:focus {
+    outline: 1px solid #c34f75;
+    border-color: #c34f75;
+    box-shadow: none;
+}
+
+.loginBtn,
+.createBtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginBtn {
+    background: #c13f69;
+    margin-top: 12px;
+}
+
+.loginBtn:hover {
+    background: #a82e56;
+}
+
+.createBtn {
+    background: #444;
+    margin-top: 5px;
+}
+
+.createBtn:hover {
+    background: #222;
+}
+
+@media (max-width: 480px) {
+    .page {
+        padding: 15px;
+    }
+
+    .loginBox {
+        padding: 23px;
+    }
+
+    .loginBox h2 {
+        font-size: 24px;
+    }
+}
